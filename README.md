@@ -1,4 +1,4 @@
-# trie.zig
+# comptrie.zig
 A simple comptime Trie implementation in Zig.
 
 Usage:
