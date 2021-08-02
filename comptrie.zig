@@ -40,7 +40,7 @@ pub fn CompTrie(comptime V: type) type {
             node.value = value;
         }
 
-        pub fn get(self: *Self, key: []const u8) ?V {
+        pub fn get(self: *const Self, key: []const u8) ?V {
             var node: *TrieNode = self.root.?;
 
             for (key) |c| {
